@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yurate</title>
+    <link rel="stylesheet" href="./yucunrate.css">
+    <script src="yucunrate.js"></script>
+</head>
+ 
+<body>
+    <div class="calculator">
+        <br>
+        <div class="keyboard">
+            <input type="button" id="cun" class="buttonleft" onclick="showcun()" value="存款"  />
+            <input type="button" id="dai" class="buttonright" onclick="showdai()" value="贷款" />
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <b>金额（元）：</b>
+            <input type="text" id="money" name="money" class="Screen" value="" placeholder="请输入金额(元):">
+            <br>
+            <br>
+            <br>
+            <b>时长（年）：</b>
+            <select name="time" id="time" class="Screen" readonly placeholder="请选择时长(年):">
+                <option value="cun">活期存款</option>
+                <option value="cun">三个月</option>
+                <option value="cun">半年</option>
+                <option value="cun">一年</option>
+                <option value="cun">二年</option>
+                <option value="cun">三年</option>
+                <option value="cun">五年</option>
+
+                <option value="dai">六个月</option>
+                <option value="dai">一年</option>
+                <option value="dai">一至三年</option>
+                <option value="dai">三至五年</option>
+                <option value="dai">五年</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <b>利息（元）：</b>
+            <input type="text" id="lixi" name="lixi" class="Screen" value="" readonly placeholder="您的利息(元)为:">
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="button" id="calculate" class="buttonleft" onclick="calculate()" value="计算" />
+            <input type="button" id="correct" class="buttonright"  value="修改" />
+            <div id="content"></div>
+        </div>
+    </div>
+</body>
+ 
+</html>

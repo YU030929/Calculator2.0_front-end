@@ -1,0 +1,75 @@
+.calculator {
+    border: 1px solid rgba(0, 136, 255, 0.671);
+    outline: 1px solid rgb(136, 127, 127);
+    border-radius: 10px;
+    background-color: aliceblue;
+    
+    margin: 100px auto;
+    width: 300px;
+    height: 450px;
+
+    padding: 50px;
+}
+
+.Screen{
+    border: 1px solid rgba(0, 136, 255, 0.362);
+    outline: 1px solid rgb(136, 127, 127);
+    border-radius: 5px;
+    background-color:white;
+    
+    width: 190px;
+    height: 30px;
+
+    font-size: 15px;
+    /* 将元素的所有属性的过渡时间设置为0.1秒 */
+    /* transition: all .1s; */
+    /* 将元素中的文本向右对齐 */
+    /* text-align: right; */
+    /* 将元素中的文本向右移动10像素 */
+    /* padding-right: 10px; */
+}
+
+.keyboard{
+    height: 350px;
+    margin-top: 0px;
+}
+
+.buttonleft{
+    border: 1px solid rgba(0, 136, 255, 0.362);
+    outline: 1px solid rgb(136, 127, 127);
+    border-radius: 5px;
+    background-color:white;
+
+    width: 75px;
+    height: 40px;
+    
+    /* 将鼠标悬停在按钮上时的光标样式设置为指针 */
+    cursor: pointer;
+
+    /* 设置元素的外边距 */
+    margin: 6px auto;
+    /* 将按钮中的文本居中对齐。 */
+    /* text-align: center; */
+    /* 将按钮向左浮动 */
+    float: left;
+}
+
+.buttonright{
+    border: 1px solid rgba(0, 136, 255, 0.362);
+    outline: 1px solid rgb(136, 127, 127);
+    border-radius: 5px;
+    background-color:white;
+
+    width: 75px;
+    height: 40px;
+    
+    /* 将鼠标悬停在按钮上时的光标样式设置为指针 */
+    cursor: pointer;
+
+    /* 设置元素的外边距 */
+    margin: 6px auto;
+    /* 将按钮中的文本居中对齐。 */
+    /* text-align: center; */
+    /* 将按钮向左浮动 */
+    float: right;
+}
